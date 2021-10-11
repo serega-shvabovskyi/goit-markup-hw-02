@@ -33,6 +33,14 @@ body {
   text-decoration: none;
 }
 
+.studio-text-dark {
+  color: black;
+}
+
+.studio-text-light {
+  color: #ffffff;
+}
+
 /* -----------------------------header------------------------------------- */
 
 .header-link {
@@ -131,6 +139,7 @@ body {
 }
 
 /* --------------------services---------------- */
+
 .services-title {
   font-weight: bold;
   font-size: 36px;
@@ -166,6 +175,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
+
 /* --------------footer----------------- */
 .footer-link {
   font-family: "Raleway", sans-serif;
@@ -176,6 +186,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--third-text-color);
 }
+
 .footer {
   background: #2f303a;
 }
