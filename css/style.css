@@ -46,7 +46,7 @@ body {
 .header-link {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19x;
   letter-spacing: 0.03em;
@@ -107,7 +107,7 @@ body {
 }
 
 .button-text {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -122,7 +122,7 @@ body {
 /* --------------benefits---------------------- */
 
 .вenefits-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -141,7 +141,7 @@ body {
 /* --------------------services---------------- */
 
 .services-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -152,10 +152,9 @@ body {
 /* -------------------our-team---------------------------- */
 
 .our-team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
 }
@@ -163,7 +162,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
 }
@@ -171,7 +169,6 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19px;
-  text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
@@ -180,7 +177,7 @@ body {
 .footer-link {
   font-family: "Raleway", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19x;
   letter-spacing: 0.03em;
@@ -191,14 +188,14 @@ body {
   background: #2f303a;
 }
 
-.address-rext {
+.address-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
-.address-rext {
+.address-text {
   font-style: inherit;
 }
 .footer-link-text {
@@ -213,4 +210,39 @@ body {
   color: var(--accent-color);
 }
 
-/* -----------------Portfolio Page------------------------ */
+/* -----------------Portfolio----<!--Портфолио сайта-->------------------ */
+
+.button-text-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
+.button-text-portfolio:hover,
+.button-text-portfolio:focus {
+  color: var(--accent-color);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* --------samples Образцы наших работ--------- */
+
+.samples-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-title-color);
+}
+.samples-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
