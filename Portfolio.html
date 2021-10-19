@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +7,18 @@
     <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@500;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <!--Шапка сайта WebStudio-->
-    <header class="header">
+    <header class="header-portfolio">
         <nav class="header-nav">
             <a class="header-link link" href="./Portfolio.html">Web<span class="studio-text-dark">Studio</span> </a>
             <ul class="nav-list list">
                 <li class="nav-item"><a class="nav-link link" href="./index.html">Студия</a></li>
-                <li class="nav-item"><a class="nav-link link" href="">Портфолио</a></li>
+                <li class="nav-item"><a class="nav-link link active-link" href="">Портфолио</a></li>
                 <li class="nav-item"><a class="nav-link link" href="">Контакты</a></li>
             </ul>
         </nav>
@@ -30,17 +30,15 @@
 <main>
     <!--Портфолио сайта-->
 <section class="portfolio">
-    <h1 class=" portfolio-title visually-hidden">Какие услуги мы предоставляем</h1>
+    <h1 class="portfolio-title visually-hidden">Какие услуги мы предоставляем</h1>
     <ul class="portfolio-list list">
-        <li><button class="button-text-portfolio pointer" type="button">Все</button></li>
+        <li><button class="button-text-portfolio pointer portfolio-active-link" type="button">Все</button></li>
         <li><button class="button-text-portfolio pointer" type="button">Веб-сайты</button></li>
         <li><button class="button-text-portfolio pointer" type="button">Приложения</button></li>
         <li><button class="button-text-portfolio pointer" type="button">Дизайн</button></li>
         <li><button class="button-text-portfolio pointer" type="button">Маркетинг</button></li>  
     </ul>
-</section>
 <!--Образцы наших работ-->
-<section class="samples">
     <ul class="samples-list list">
         <li class="samples-item"> 
             <img src="./images/img-min.jpg" alt="image of site">
