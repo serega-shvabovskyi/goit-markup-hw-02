@@ -6,6 +6,9 @@
   --primary-title-color: #ffffff;
   --secondary-title-color: #212121;
   --accent-color: #2196f3;
+  --first-background-color: #f5f4fa;
+  --second-background-color: #e5e5e5;
+  --third-background-color: #ffffff;
 }
 
 body {
@@ -61,6 +64,10 @@ body {
   color: var(--header-color);
 }
 
+.active-link {
+  color: var(--accent-color);
+}
+
 .header-mail {
   font-weight: 500;
   font-size: 14px;
@@ -102,16 +109,20 @@ body {
   text-transform: uppercase;
   color: var(--primary-title-color);
 }
-.hero-title {
+.hero {
   background-color: #2f303a;
+  width: 1600px;
 }
 
 .button-text {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
+  align-items: center;
+  text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  background-color: var(--accent-color);
 }
 
 .button-text:hover,
@@ -151,10 +162,14 @@ body {
 
 /* -------------------our-team---------------------------- */
 
+.our-team {
+  background-color: var(--first-background-color);
+}
 .our-team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
 }
@@ -210,6 +225,11 @@ body {
   color: var(--accent-color);
 }
 
+/* ------------------header---------------------- */
+
+.header-portfolio {
+  background-color: var(--third-background-color);
+}
 /* -----------------Portfolio----<!--Портфолио сайта-->------------------ */
 
 .button-text-portfolio {
@@ -223,11 +243,17 @@ body {
 
 .button-text-portfolio:hover,
 .button-text-portfolio:focus {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
+  background-color: var(--accent-color);
 }
 
 .pointer {
   cursor: pointer;
+}
+
+.portfolio-active-link {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color);
 }
 
 /* --------samples Образцы наших работ--------- */
