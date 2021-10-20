@@ -115,11 +115,10 @@ body {
 }
 
 .button-text {
-  font-weight: bold;
+  font-family: inherit;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
   background-color: var(--accent-color);
@@ -127,7 +126,8 @@ body {
 
 .button-text:hover,
 .button-text:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* --------------benefits---------------------- */
@@ -230,6 +230,7 @@ body {
 .header-portfolio {
   background-color: var(--third-background-color);
 }
+
 /* -----------------Portfolio----<!--Портфолио сайта-->------------------ */
 
 .button-text-portfolio {
@@ -239,6 +240,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-title-color);
+  background-color: var(--first-background-color);
 }
 
 .button-text-portfolio:hover,
